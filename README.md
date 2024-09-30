@@ -1,4 +1,12 @@
 # COVID-19 Data Analysis Report
+## Table of content
+. Summary
+. Introduction
+. Methodology
+. Data cleaning
+. Findings
+. Discussion
+. Conclusion
 
 ## 1. Executive Summary
 
@@ -55,53 +63,60 @@ The dataset includes the following columns:
 - Time series analysis for trend identification.
 - Comparative analysis using SQL to segment data by WHO regions and countries.
 - Data visualization in Power BI for clearer insights.
+- 
+ Data format:  CSV (Comma separated value
+  ### 4. Data Cleaning
+  
+ Data cleaning and preprocessing performed to handle missing values and inconsistencies.
+ 
 
-## 4. Findings
 
-### 4.1 Infection Rates
+## 5. Findings
+
+### 5.1 Infection Rates
 
 - **Cumulative Cases Total**: The NA Region had the highest total cases of COVID-19, with 6386504 cases.
 - **Prevalence per Population**: Europe recorded the highest prevalence per 100,000 population.
 - **Country Insights**: Vietnam exhibited the highest prevalence per 100,000 population.
 
-### 4.2 Recent Trends
+### 5.2 Recent Trends
 
 - **Cases in the Last 7 Days**: The NA Region had the highest recorded cases within the last 7 days, totaling.
 - **Cases per 100,000 Population**: The Western Pacific Region showed the highest cases within 7 days per 100,000 population.
 - **Incidence Rates**: Vietnam had the highest incidence of COVID-19 both within the last 7 days and the last 24 hours.
 
-### 4.3 Mortality Rates
+### 5.3 Mortality Rates
 
 - **Cumulative Deaths**: The America Region had the highest mortality rates, with cumulative deaths.
 
-### 4.4 Visualizations
+### 5.4 Visualizations
 
 Power BI dashboards provided insights into trends over time, highlighting peak infection days and corresponding mortality rates.
 
-## 5. Discussion
+## 6. Discussion
 
-### 5.1 Interpretation of Findings
+### 6.1 Interpretation of Findings
 
 The NA Region's high total cases suggest ongoing transmission dynamics that require targeted intervention. Europe’s high prevalence per 100,000 indicates potential underreporting or increased testing efforts. Vietnam's rising cases reflect an urgent need for enhanced public health measures.
 
-### 5.2 Limitations
+### 6.2 Limitations
 
 - Potential inconsistencies in reporting across countries may affect data accuracy.
 - The analysis relies on the availability of up-to-date demographic data.
 
-## 6. Conclusions
+## 7. Conclusions
 
-### 6.1 Summary of Key Insights
+### 7.1 Summary of Key Insights
 
 High cumulative cases in the NA Region and high prevalence in Europe and Vietnam necessitate focused public health strategies. The America Region’s elevated mortality rates highlight the need for comprehensive healthcare support.
 
-### 6.2 Recommendations
+### 7.2 Recommendations
 
 1. **Targeted Public Health Campaigns**: Implement targeted awareness and vaccination campaigns in regions with high case rates, particularly in the NA and Europe.
 2. **Enhanced Testing and Reporting**: Encourage comprehensive testing in Vietnam and similar countries to ensure accurate data reporting and timely interventions.
 3. **Healthcare Resource Allocation**: Allocate healthcare resources and support to the America Region to address the high mortality rates effectively.
 
-### 6.3 Suggestions for Future Research
+### 7.3 Suggestions for Future Research
 
 - Investigate the effectiveness of vaccination strategies and public health interventions in regions with high prevalence.
 - Monitor emerging variants and their impact on case and mortality trends, utilizing SQL for data extraction and analysis.
