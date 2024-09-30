@@ -1,8 +1,5 @@
 use project
 go
---which country/Region has the highest number of cases in total?
---select Name, Cases_cumulative_total from CO
---order by Cases_cumulative_total desc
 
 select * from Co
 
@@ -29,7 +26,7 @@ select * from Co
 
 
 
---B.
+--B. PREVALENCE
 --5. which Region has the highest number of cases in total?
 --select Region, sum(Cases_cumulative_total) from CO
 --group by WHO_Region
@@ -47,7 +44,7 @@ select * from Co
 
 
 
---C.
+--C. MORTALITY
 
 --8. Which Region recorded the highest mortality rate of covid 19 within the last 7 days?
 --select WHO_Region, sum(Deaths_newly_reported_in_last_7_days) New_cases from CO
