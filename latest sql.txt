@@ -1,0 +1,73 @@
+use project
+go
+--which country/Region has the highest number of cases in total?
+--select Name, Cases_cumulative_total from CO
+--order by Cases_cumulative_total desc
+
+select * from Co
+
+--==(A) incidence
+
+--1. Which Region has the highest incidence of covid 19 within the last 7 days?
+--select WHO_Region, sum(Cases_newly_reported_in_last_7_days) new_cases from CO
+--group by  WHO_Region
+--order by New_cases desc
+
+--2.Top 10 countries with the highest incidence of covid 19 within the last 24 hours?
+--select TOP 10 (Name), Cases_newly_reported_in_last_24_hours from Co
+--Order by Cases_newly_reported_in_last_24_hours DESC
+
+--3. Top 6 countries with the highest incidence of covid 19 within the last 7 days?
+--select top 6 (Name), Cases_newly_reported_in_last_7_days from Co
+--Order by Cases_newly_reported_in_last_7_days desc
+
+--4. Which Region has the highest incidence of covid 19 in the last 7 days per 100000 population?
+ --select WHO_Region, sum(Cases_newly_reported_in_last_7_days_per_100000_population) new_cases from Co
+ --group by WHO_Region
+ --order by  new_cases desc
+ 
+
+
+
+--B.
+--5. which Region has the highest number of cases in total?
+--select Region, sum(Cases_cumulative_total) from CO
+--group by WHO_Region
+--order by Cases_cumulative_total desc
+
+--6. Top 5 countries with the highest prevalence of covid 19 per 100000 population?
+--select Name, Cases_cumulative_total_per_100000_population from CO
+--order by Cases_cumulative_total_per_100000_population desc
+
+--7.Which Region has the highest prevalence of covid 19 per 100000 population?
+--select WHO_Region, sum(Cases_cumulative_total_per_100000_population) new_cases from CO
+--group by WHO_Region
+--order by new_cases desc
+
+
+
+
+--C.
+
+--8. Which Region recorded the highest mortality rate of covid 19 within the last 7 days?
+--select WHO_Region, sum(Deaths_newly_reported_in_last_7_days) New_cases from CO
+--group by  WHO_Region
+--order by New_cases desc
+
+
+--9. Which Region recorded the highest mortality rate of covid 19 within the last 24 hours?
+--select WHO_Region, sum(Deaths_newly_reported_in_last_24_hours) New_cases from Co
+--group by WHO_Region
+--order by New_cases desc
+
+--10. WHO_Region with the highest mortality rate of covid 19 within the last 24 hours?
+--SeleCT WHO_Region, Cases_newly_reported_in_last_24_hours from Co
+--GROUP BY WHO_Region
+--Order by Cases_newly_reported_in_last_24_hours DESC
+
+--11. which WHO_Region has the highest Death_cummulative_total?
+--select WHO_Region, Deaths_cumulative_total from CO
+--GROUP BY WHO_Region
+--order by Deaths_cumulative_total desc
+ 
+ 
