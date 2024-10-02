@@ -1,12 +1,12 @@
 # COVID-19 Data Analysis Report
 ## Table of content
-. Summary
-. Introduction
-. Methodology
-. Data cleaning
-. Findings
-. Discussion
-. Conclusion
+##. Summary
+##. Introduction
+##. Methodology
+##. Data cleaning
+##. Findings
+##. Discussion
+##. Conclusion
 
 ## 1. Executive Summary
 
